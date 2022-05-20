@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(to right, rgb(228, 191, 124), rgb(233, 174, 10));
+}
+div.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background:rgba(0, 0 , 0, 0.8);
+    color: white;
+    padding:10px 0;
+    margin-top: 10vh;
+    border-radius: 8px;
+}
+div.container .bar {
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    margin-top: 10PX;
+    margin-bottom: 20PX;
+}
+div.campos{
+    display: flex;
+    flex-direction: column;
+}
+div.campo-nome, div.campo-altura, div.campo-peso {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 20PX;
+}
+label.nome, label.altura {
+    margin-right: 10px;
+    font-size: 18px;
+}
+label.peso{
+     margin-right: 20px;
+     font-size: 18px;
+
+}
+input#nome, input#altura, input#peso {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+    outline: none;
+    padding: 5px;
+
+}
+button{
+    margin-top:20px;
+    margin:auto;
+    color:black;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size:15px;
+    outline: none;
+}
+button:hover{
+    color:#fff;
+    background:rgba(0, 0 , 0, 0.7);
+}
+
+div.resultado {
+    margin: auto;
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: black;
+    padding:  40px 5px;
+    font-size: 20px;
+    font-style: italic;
+}
